@@ -9,7 +9,7 @@ function App() {
         <GoogleButton onClick={signInWithGoogle}></GoogleButton>
         <h1>{localStorage.getItem("name")}</h1>
         <h1>{localStorage.getItem("email")}</h1>
-        <img src={localStorage.getItem("profilePicture")} />
+        <img src={localStorage.getItem("profilePicture")} alt=""/>
       </header>
     </div>
   );
